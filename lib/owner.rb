@@ -87,6 +87,7 @@ end
   def list_pets
     @pets.each do |type|
       "I have #{type.count} fish"
+    end
   end
 
 end
