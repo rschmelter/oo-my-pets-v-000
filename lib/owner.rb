@@ -70,11 +70,14 @@ end
 def sell_pets
   @pets[:fishes].each do |fish|
     fish.mood = "nervous"
+  end
   @pets[:fishes].clear
   @pets[:dogs].each do |dog|
+  end
     dog.mood = "nervous"
   @pets[:dogs].clear
   @pets[:cats].each do |cat|
+  end
     cat.mood = "nervous"
   @pets[:cats].clear
 end
