@@ -85,8 +85,9 @@ def sell_pets
 end
 
   def list_pets
-    @pets.each do |type|
-      "I have #{type}.count fish"
+    @pets.each do |type, pet|
+      "I have #{type.count} fish"
+
     end
   end
 
