@@ -84,4 +84,8 @@ def sell_pets
   @pets[:cats].clear
 end
 
+  def list_pets
+    
+  end
+
 end
