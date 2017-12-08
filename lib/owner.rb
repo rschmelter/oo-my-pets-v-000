@@ -88,8 +88,8 @@ end
     fish_count = @pets[:fish].count
     cat_count = @pets[:cats].count
     dog_count = @pets[:dogs].count
-    "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)"
 
+    "I have #{fish_count} fish, #{dog_count} dogs, and #{cat_count} cats."
     end
   end
 
