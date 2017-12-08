@@ -85,7 +85,7 @@ def sell_pets
 end
 
   def list_pets
-    fish_count = @pets[:fish].length
+    fish_count = @pets[:fishes].length
     cat_count = @pets[:cats].length
     dog_count = @pets[:dogs].length
 
